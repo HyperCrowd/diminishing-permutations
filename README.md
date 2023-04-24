@@ -1,5 +1,7 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-8fTJe0nnTjrIjuxzH/T1ThXOgRVtNkQYdpJUnkn+rSE=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-nsfjTgsLEvoEwyXfCYzjDklGtQ2mxSCAex/sdUCllVI=" crossorigin="anonymous"></script>
+</head>
 
 # Diminshing Permutations of a Set
 
