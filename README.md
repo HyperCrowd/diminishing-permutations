@@ -2,7 +2,9 @@
 
 Easily sets up TypeScript server-side projects that are StackBlitz compliant. Comes with everything needed for easy TypeScript usage and has CommanderJS.
 
-$⌊(n! * e)⌋ - 1$
+```math
+⌊(n! * e)⌋ - 1
+```
 
 [See the breakdown of how it works!](https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing)
 
