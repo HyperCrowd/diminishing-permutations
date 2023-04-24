@@ -1,13 +1,13 @@
 # Diminshing Permutations of a Set
 
-How to calculate the number of diminishing permutations of a set in a way that doesn't explode your computer.
+How to calculate the number of diminishing permutations of a set in a way that doesn't explode your computer. It uses the following equation:
 
 ```math
 ⌊(n! * e)⌋ - 1
 ```
 
 <p align="center">
-<img src="https://i.imgur.com/POhhPp4.png"><br/>
+<img src="https://i.imgur.com/POhhPp4.png" width="25%" height="25%"><br/>
 <a href="https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing">See the breakdown of how it works!</a>
 </p>
 
