@@ -56,7 +56,7 @@ export function getPermutations(n: number) {
   const eTimesNFactorial = E.times(factor.value);
   const result = floor(eTimesNFactorial).minus(1);
 
-  if (result.gte(Number.MAX_VALUE)) {
+  if (n > 20) {
     return result.toExponential(3);
   } else {
     return result.toString();
