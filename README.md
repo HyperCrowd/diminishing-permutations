@@ -7,8 +7,8 @@ How to calculate the number of diminishing permutations of a set in a way that d
 ```
 
 <p align="center">
-<img src="https://i.imgur.com/POhhPp4.png" width="25%" height="25%"><br/>
-<a href="https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing">See the breakdown of how it works!</a>
+<a href="https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing">See the breakdown of how it works on Google Sheets!</a><br/>
+<img src="https://i.imgur.com/POhhPp4.png" width="100" height="100">
 </p>
 
 ## Install
