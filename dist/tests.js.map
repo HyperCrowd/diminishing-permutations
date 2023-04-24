@@ -1,0 +1,1 @@
+{"version":3,"sources":["../tests/index.ts"],"sourcesContent":["import { test } from 'uvu'\r\nimport * as assert from 'uvu/assert'\r\n\r\ntest('True is true', async () => {\r\n    assert.ok(false);\r\n})\r\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA,iBAAqB;AACrB,aAAwB;AAExB,qBAAK,gBAAgB,YAAY;AAC7B,EAAO,UAAG,KAAK;AACnB,CAAC;","names":[]}
