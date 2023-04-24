@@ -1,16 +1,16 @@
 {
-  "name": "@psysecgroup/diminshing-permutations",
+  "name": "@psysecgroup/diminishing-permutations",
   "description": "How to calculate the number of diminishing permutations of a set in a way that doesn't explode your computer.",
   "version": "1.0.0",
   "author": "The PsySec Group",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HyperCrowd/diminshing-permutations/issues"
+    "url": "https://github.com/HyperCrowd/diminishing-permutations/issues"
   },
-  "homepage": "https://github.com/HyperCrowd/diminshing-permutations#readme",
+  "homepage": "https://github.com/HyperCrowd/diminishing-permutations#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HyperCrowd/diminshing-permutations.git"
+    "url": "git+https://github.com/HyperCrowd/diminishing-permutations.git"
   },
   "scripts": {
     "start": "node -r source-map-support/register dist/index.js",
