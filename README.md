@@ -6,9 +6,9 @@ How to calculate the number of diminishing permutations of a set in a way that d
 ⌊(n! * e)⌋ - 1
 ```
 
-<center>
+<p align="center">
 [See the breakdown of how it works!](https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing)
-</center>
+</p>
 
 ## Install
 
