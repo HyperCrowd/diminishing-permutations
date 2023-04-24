@@ -13,10 +13,10 @@ How to calculate the number of diminishing permutations of a set in a way that d
 
 ## Install
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hypercrowd/diminshing-permutations)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hypercrowd/diminishing-permutations)
 
 ```bash
-git clone https://github.com/HyperCrowd/diminshing-permutations.git
+git clone https://github.com/HyperCrowd/diminishing-permutations.git
 cd diminshing-permutations
 yarn test
 ```
