@@ -1,17 +1,8 @@
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-8fTJe0nnTjrIjuxzH/T1ThXOgRVtNkQYdpJUnkn+rSE=" crossorigin="anonymous" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-nsfjTgsLEvoEwyXfCYzjDklGtQ2mxSCAex/sdUCllVI=" crossorigin="anonymous"></script>
-</head>
-
 # Diminshing Permutations of a Set
 
 Easily sets up TypeScript server-side projects that are StackBlitz compliant. Comes with everything needed for easy TypeScript usage and has CommanderJS.
 
-<center>
-$$
-⌊(n! * e)⌋ - 1
-$$
-</center>
+$⌊(n! * e)⌋ - 1$
 
 [See the breakdown of how it works!](https://docs.google.com/spreadsheets/d/1rBLwVjB6dwehYyHy3xBZOJ4XwVe46dqmzkIjNURyngU/edit?usp=sharing)
 
