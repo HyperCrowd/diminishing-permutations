@@ -1,4 +1,4 @@
-# Diminshing Permutations of a Set
+# Diminishing Permutations of a Set
 
 How to calculate the number of diminishing permutations of a set in a way that doesn't explode your computer. It uses the following equation:
 
