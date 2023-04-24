@@ -35,7 +35,6 @@ module.exports = __toCommonJS(src_exports);
 
 // src/math.ts
 var import_bignumber = __toESM(require("bignumber.js"));
-import_bignumber.default.set({ DECIMAL_PLACES: 10 });
 var PI = new import_bignumber.default(Math.PI);
 var E = new import_bignumber.default(Math.E);
 var TWO = new import_bignumber.default(2);
@@ -47,10 +46,28 @@ function stirlingApproximation(n) {
   console.log("left");
   const left = n.times(PI).times(TWO).sqrt();
   console.log("right");
-  const right = n.dividedBy(E).pow(n);
+  const right = n.dividedBy(E);
   console.log("product");
-  const product = left.times(right);
+  const product = left.times(power(right, n));
+  console.log(product);
   return product;
+}
+function power(base, exponent) {
+  let result = new import_bignumber.default(1);
+  let multiplier = base;
+  let remainder = exponent;
+  while (remainder.gt(0)) {
+    console.log(remainder.gt(0));
+    if (remainder.modulo(2).eq(1)) {
+      result = result.times(multiplier);
+    }
+    console.log("mult");
+    multiplier = multiplier.times(multiplier);
+    console.log("div");
+    remainder = remainder.dividedBy(2);
+  }
+  console.log("done");
+  return result;
 }
 function* factorial(n) {
   let result = ONE;

@@ -1,5 +1,4 @@
 import BigNumber from 'bignumber.js';
-BigNumber.set({ DECIMAL_PLACES: 10 });
 
 const PI = new BigNumber(Math.PI);
 const E = new BigNumber(Math.E);
@@ -16,10 +15,33 @@ function stirlingApproximation(n: BigNumber) {
   console.log('left');
   const left = n.times(PI).times(TWO).sqrt();
   console.log('right');
-  const right = n.dividedBy(E).pow(n);
+  const right = n.dividedBy(E);
   console.log('product');
-  const product = left.times(right);
+  const product = left.times(power(right, n));
+  console.log(product);
   return product;
+}
+
+/**
+ *
+ */
+function power(base: BigNumber, exponent: BigNumber): BigNumber {
+  let result = new BigNumber(1);
+  let multiplier = base;
+  let remainder = exponent;
+
+  while (remainder.gt(0)) {
+    console.log(remainder.gt(0));
+    if (remainder.modulo(2).eq(1)) {
+      result = result.times(multiplier);
+    }
+    console.log('mult');
+    multiplier = multiplier.times(multiplier);
+    console.log('div');
+    remainder = remainder.dividedBy(2);
+  }
+  console.log('done');
+  return result;
 }
 
 /**
