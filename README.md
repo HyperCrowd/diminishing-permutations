@@ -1,6 +1,6 @@
 # Diminshing Permutations of a Set
 
-Easily sets up TypeScript server-side projects that are StackBlitz compliant. Comes with everything needed for easy TypeScript usage and has CommanderJS.
+How to calculate the number of diminishing permutations of a set in a way that doesn't explode your computer.
 
 ```math
 ⌊(n! * e)⌋ - 1
