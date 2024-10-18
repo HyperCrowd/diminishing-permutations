@@ -48,7 +48,7 @@ console.log(maximumThermalStatesPossible);
   "possiblePermutations": Infinity,
   "linearGrowthRate": 75.65626820127402,
   "dimensionalityReduction": 76.65626820127402,
-  "compression": 0.9869547523840538,
+  "stability": 0.9869547523840538,
   "cryptographyFriendly": {
     "128": true,
     "256": true,
