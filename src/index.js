@@ -1,0 +1,1 @@
+export { getPermutationAnalysis } from './math.js';
