@@ -42,20 +42,20 @@ console.log(maximumThermalStatesPossible);
 
 ```json
 {
-  numStates: 1.9561145483920006e+33,
-  latex: 'e^{1.479923269055592 \\times 10^{+35}}',
-  exponent: 1.479923269055592e+35,
-  possiblePermutations: Infinity,
-  linearGrowthRate: 75.65626820127402,
-  dimensionalityReduction: 76.65626820127402,
-  compression: 0.9869547523840538,
-  cryptographyFriendly: {
-    '128': true,
-    '256': true,
-    '512': true,
-    '1024': true,
-    '2048': true,
-    '4096': true
+  "numStates": 1.9561145483920006e+33,
+  "latex": "e^{1.479923269055592 \\times 10^{+35}}",
+  "exponent": 1.479923269055592e+35,
+  "possiblePermutations": Infinity,
+  "linearGrowthRate": 75.65626820127402,
+  "dimensionalityReduction": 76.65626820127402,
+  "compression": 0.9869547523840538,
+  "cryptographyFriendly": {
+    "128": true,
+    "256": true,
+    "512": true,
+    "1024": true,
+    "2048": true,
+    "4096": true
   }
 }
 ```
