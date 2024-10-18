@@ -62,26 +62,26 @@ console.log(maximumThermalStatesPossible);
 
 ## Output
 
-### Dimensionality Reduction:
+#### Dimensionality Reduction
 
 The function calculates the logarithm of the number of states (`numStates`). This value helps to understand how the complexity of a system scales with the number of states. In high-dimensional spaces, operations can become computationally expensive, so reducing dimensionality can simplify analysis.
 
-### Exponent:
+#### Exponent
 
 Calculates an exponent based on the number of states. For smaller values (less than 5000), it uses a precise result derived from the logarithmic sum of integers. For larger values, it uses an Euler-Maclaurin approximation. This step is crucial because it provides a way to compute the complexity of permutations without directly calculating all possible arrangements, which can be infeasible for large inputs.
 
-# Linear Growth Rate:
+### Linear Growth Rate
 
 The `linearGrowthRate` represents how the number of possible permutations grows relative to the number of states. This metric gives insight into how adding more states affects the overall complexity of the system.
 
-# Stability:
+### Stability
 
 The function calculates a stability value, which is the ratio of the `linearGrowthRate` to the `dimensionalityReduction`. This indicates how efficiently the system can manage its complexity in relation to its size. A higher ratio suggests that the system's complexity grows more slowly than the increase in its dimensionality, which can be advantageous for optimization.  A slower growth rate suggests that the algorithm remains manageable even as it scales, which is crucial for maintaining performance in real-time applications.  A high stability means less scalar variance is possible.  A low stability means more scalar variance is possible.
 
-# Cryptography Friendliness:
+### Cryptography Friendliness
 
 The function evaluates whether the system can handle certain security standards based on the number of states. This is crucial for cryptographic applications where a certain level of entropy is required to ensure security. The function checks against standard bit sizes (128, 256, etc.), providing a quick assessment of whether the system meets those security requirements.
 
-# LaTeX Representation:
+### LaTeX Representation
 
 The function returns the latex representation of the calculated exponent. This is useful for documentation, presentations, or further mathematical analysis, allowing the results to be expressed in a formal mathematical format.
